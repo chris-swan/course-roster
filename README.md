@@ -1,18 +1,19 @@
-# Student Roster with Field Trip Permission Slip Option
+# Course Roster with AngularJS
 
-##### A website that allows users to create a student roster, delete and update individual items, and search through the list. A Field Strip Permission Slip feature is added to show if the students have their permission slip turned in. (9/22/15)
+##### A website that allows users to create a course roster and add students to each course. (9/22/15)
 
-#### By Logan Wu & Ian McKenney
+#### By Logan Wu & Chris Swan
 
 ## Description
-Two controllers ```StudentsController.js``` and ```FieldTripsController.js``` and one factory ```StudentsFactory.js``` are created for the project.
-
-Built using MVC.
+An app that allows you to add classes and add students to classes.
 
 ## Setup
 
 * Clone the project using the link provided on Github in the Terminal.
-* Open ```index.html``` from the main project folder.
+* If you are on a mac, use Terminal to type in ```python -m SimpleHTTPServer``` from the top level of the project folder.
+open browser to ```localhost:8000``` to view site.
+
+If you are on windows, download Mongoose, copy it to project folder, and double click it to launch a server and open your page in the browser.
 
 ## Technologies Used
 
@@ -20,7 +21,7 @@ HTML, CSS, Bootstrap, JavaScript, AngularJS
 
 ### Legal
 
-Copyright (c) 2015 **Logan Wu & Ian McKenney**
+Copyright (c) 2015 **Logan Wu & Chris Swan**
 
 This software is licensed under the MIT license.
 
